@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RuchithaPortfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d47743702c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo3.png" class="logo" width="100px" height="50px">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm<span> Ruchitha Sree</span><br> from Hyderabad</h1>
+            </div>
+        </div>
+
+    </div>
+    <!---about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="myimage.jpeg">
+                </div>
+                <div class="about-col-2">
+
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi odit quae quia culpa vero at consequuntur ipsum asperiores cum voluptate, suscipit minus voluptas aliquid sapiente ad eveniet ea laboriosam rerum?Lorem ipsum dolor, sit
+                        amet consectetur adipisicing elit. Magnam assumenda incidunt eveniet neque earum ratione! Possimus eligendi libero eius voluptate, ex voluptates mollitia, doloribus itaque, quos corporis sit deleniti fugit.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing education interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--projects-->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-game-board"></i>
+                    <h2>Scrabble word game</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam eum, perspiciatis asperiores vel, soluta vitae perferendis inventore, omnis alias totam beatae? Delectus incidunt necessitatibus porro exercitationem libero mollitia animi?
+                        Voluptate.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-light fa-browser"></i>
+                    <h2>My Portfolio </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, consequuntur dolorem? Quas soluta delectus aspernatur quam esse in odit laborum omnis dolor maxime, nemo iste libero ab illo rerum veritatis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--skills-->
+    <div id="skills">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="container3">
+            <div class="skill-box">
+                <span class="title">Java</span>
+
+                <div class="skill-bar">
+                    <span class="skill-per html">
+                    <span class="tooltip">75%</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <span class="title">Python</span>
+
+                <div class="skill-bar">
+                    <span class="skill-per css">
+                    <span class="tooltip">65%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <span class="title">C</span>
+
+                <div class="skill-bar">
+                    <span class="skill-per javascript">
+                    <span class="tooltip">60%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <span class="title">C++</span>
+
+                <div class="skill-bar">
+                    <span class="skill-per javascript">
+                    <span class="tooltip">60%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <span class="title">HTML</span>
+
+                <div class="skill-bar">
+                    <span class="skill-per javascript">
+                    <span class="tooltip">60%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <span class="title">CSS</span>
+
+                <div class="skill-bar">
+                    <span class="skill-per javascript">
+                    <span class="tooltip">60%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <span class="title">JavaScript</span>
+
+                <div class="skill-bar">
+                    <span class="skill-per nodejs">
+                    <span class="tooltip">30%</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i></i>pruchitha27@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 6281256547</p>
+                    <div class="social-icons">
+                        <a href="www.linkedin.com/in/ruchitha-sree-pappu-387757201"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/ruchitha_sree_27/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/Ruchithasree20"><i class="fa-brands fa-twitter"></i></a>
+
+                    </div>
+                    <a href="Ruchitha Sree Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <botton type="submit" class="btn btn2">Submit</botton>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Ruchitha Sree</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
